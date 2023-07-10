@@ -78,10 +78,9 @@ header{
 }
 /* added delivery services styles*/
 .delivered{
-    border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    padding: 0 65px;
-    width: 1060px;
+    border-radius: 8px;
+    width: 63%;
     margin: 0 auto;
 }
 .delivery{
@@ -89,9 +88,31 @@ header{
     align-items: center;
     justify-content: center;
     text-align: center;
-
 }
 .delivery-succes{
     text-align: center;
     margin: 30px 30px;
+    width: 50%;
+}
+/* adeed hot deal styles */
+.hot-deal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin: 90px 0;
+    padding: 50px;
+}
+.btn-primary-tow{
+    margin-left: 43%;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+}
+.hot-deal-item{
+    padding: 0px 60px 90px 0;
 }
