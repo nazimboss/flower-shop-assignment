@@ -80,13 +80,13 @@ header{
 
 /* added delivery services styles*/
 
-.delivered{
+.delivery-contact{
     background: rgba(39, 39, 39, 0.05);
     border-radius: 8px;
     width: 63%;
     margin: 0 auto;
 }
-.delivery{
+.delivery-contact-box{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,6 +96,37 @@ header{
     text-align: center;
     margin: 30px 30px;
     width: 50%;
+}
+
+/* added styles extra creating dimandeble blower section */
+
+.most-popular-flowers-ranking{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ranking-top{
+    width: 350px;
+    margin: 60px 45px 0px 45px;
+    border: 2px solid rgba(167, 33, 98, 0.15);
+    border-radius: 15px;
+    background: rgba(0, 208, 45, 0.153);
+    box-shadow: 10px 10px 10px 10px #c1bebe;
+}
+.most-popular{
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+}
+.best-flower-description{
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 25px;
+    padding: 10px;
+}
+.best-flower-title{
+    padding: 0 10px;
+    font-size: 30px;
 }
 
 /* adeed hot deal styles */
