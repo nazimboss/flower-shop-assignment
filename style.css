@@ -184,25 +184,30 @@ header{
 
 /* added styles banner section */
 
-.banner{
-    width: 1100px;
-    padding: 100px;
+.banner-content-creating{
+    width: 60%;
+    margin: auto;
     background-image: url(/images/Rectangle\ 9.png);
-    border-radius: px;
     background-repeat: no-repeat;
     background-position: center;
-    margin-left: 350px;
+    border-radius: 15px;
 }
-.banner-text{
+.banner-content{
     text-align: center;
 }
-.email-button{
-    width: 350px;
+.email-text{
+    width: 300px;
     padding: 25px;
-    border: none;
+    margin-bottom: 40px;
     border-radius: 8px;
-    background: #FFF;
-    margin-right: 10px;
+    background: transparent;
+    border-color: #FFF;
+    color: white;
+}
+.banner-title{
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 50px;
 }
 
 /* added styles in the footer section */
