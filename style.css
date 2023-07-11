@@ -4,9 +4,9 @@ body{
 }
 
 /* Creating header styles */
+
 header{
     background: rgba(229, 84, 115, 0.10);
-    margin: ;
 }
 .beautiful-flowers-content{
     display: flex;
@@ -41,6 +41,7 @@ header{
 }
 
 /* added main section first part Our Featured Flowers */
+
 .featured-flowers-about{
     margin-bottom: 80px;
 }
@@ -76,7 +77,9 @@ header{
     padding: 40px 40px 0px 40px;
     margin: 0 10px;
 }
+
 /* added delivery services styles*/
+
 .delivered{
     background: rgba(39, 39, 39, 0.05);
     border-radius: 8px;
@@ -94,7 +97,9 @@ header{
     margin: 30px 30px;
     width: 50%;
 }
+
 /* adeed hot deal styles */
+
 .hot-deal{
     display: flex;
     align-items: center;
@@ -103,6 +108,9 @@ header{
     background: rgba(229, 84, 115, 0.05);
     margin: 90px 0;
     padding: 50px;
+}
+.color-primary{
+    color: #E55473;
 }
 .btn-primary-tow{
     margin-left: 43%;
@@ -115,4 +123,85 @@ header{
 }
 .hot-deal-item{
     padding: 0px 60px 90px 0;
+}
+
+/* added styels instagram content section */
+
+.instagram-title{
+    text-align: center;
+    font-weight: 700;
+    color: #272727;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.box-images{
+    width: 23%;
+    margin: 6% 1% 0% 0.5%;
+    border-radius: 8px;
+}
+
+/* added styles banner section */
+
+.photo-album-container{
+    margin: 30px 0px 0px 350px;
+}
+.banner{
+    width: 1100px;
+    padding: 100px;
+    background-image: url(/images/Rectangle\ 9.png);
+    border-radius: px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 350px;
+}
+.banner-text{
+    text-align: center;
+}
+.email-button{
+    width: 350px;
+    padding: 25px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    margin-right: 10px;
+}
+
+/* added styles in the footer section */
+
+footer{
+    background: #111010;
+}
+.footer-bar{
+    color: #FFF;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.footer-title{
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 80px;
+}
+.footer-description{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgba(123, 121, 121, 0.9);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: -25px;
+}
+.copyright-footer-description{  
+    color: rgba(255, 255, 255, 0.40);
+    font-family: sans-serif;
+}
+.box-rose{
+    height: 500px;
+    margin: 10px 230px 30px 350px;
 }
